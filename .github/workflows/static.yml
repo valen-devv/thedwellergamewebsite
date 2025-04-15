@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Dweller</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1b1b1b;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 100%;
+      height: auto;
+    }
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+    }
+    .description {
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+    .download-button {
+      display: block;
+      width: fit-content;
+      margin: 0 auto 40px;
+      background-color: #ff4757;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .screenshots {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+    .screenshots img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      padding: 20px;
+      background-color: #111;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="your-banner-image.jpg" alt="The Dweller Banner" />
+  </header>
+  <main>
+    <h1>The Dweller</h1>
+    <div class="description">
+      <p><strong>NOTE:</strong>The Dweller is stuck at the bottom of a cave. As it becomes night, the monsters come out to fight. But with the power of your shotgun, you can blast through these monsters to reach the top.
+
+Please note that The Dweller is a project and not a polished game.</p>
+      <p><strong>NOTA:</strong> The Dweller está atrapado en el fondo de una cueva. Cuando se hace de noche, los monstruos salen a luchar. Pero con el poder de tu escopeta, puedes abrirte paso a través de estos monstruos para llegar a la cima.
+
+Ten en cuenta que The Dweller es un proyecto y no un juego pulido.</p>
+      <p>Use the password <code>TD24</code> to unzip the file.</p>
+    </div>
+    <a class="download-button" href="https://cdn.discordapp.com/attachments/1000880849966870561/1361824451125051582/TheDwellerGame.zip?ex=6800295a&is=67fed7da&hm=1e4935b44c259d6b2dca6647375bf2dee8c74c26a23d7ce25eb0060462dc2cd0&" target="_blank">Play / Download The Dweller</a>
+
+    <div class="screenshots">
+      <img src="screenshot1.jpg" alt="Screenshot 1">
+      <img src="screenshot2.jpg" alt="Screenshot 2">
+    </div>
+
+    <div class="description">
+      <p><strong>Status:</strong> Prototype<br>
+      <strong>Author:</strong> Slexe<br>
+      <strong>Genre:</strong> Adventure, Shooter<br>
+      <strong>Tags:</strong> 2D, Pixel Art, Horror, Singleplayer</p>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025 Slexe. All rights reserved.
+  </footer>
+</body>
+</html>
